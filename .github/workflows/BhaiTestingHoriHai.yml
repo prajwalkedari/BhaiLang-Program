@@ -28,9 +28,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Installing bhai Lang..........
         run: npm i -g bhailang
+      - name: bantai file kitne hai
+         run: ls
 
       # Runs a set of commands using the runners shell
       - name: Hello World Output
         run: bhailang HelloWorld.bhai
       - name: Fibonacci sequence Output
-        run: bhailang ./Fibonacci Series.bhai
+        run: bhailang ./Fibonacci\ Series.bhai
