@@ -1,0 +1,15 @@
+hi bhai 
+bol bhai "Bantai odd or Even  number Kya hota hai?";
+bol bhai "Nahi to yeh Dekh";
+bol bhai "|--------Even--------||--------Odd--------|";
+bhai ye hai Even=0;
+bhai ye hai odd=1;
+bhai ye hai counter=100;
+jab tak bhai(counter>0){
+ bol bhai "|====>" ,Even,"<====|====>",odd,"<====|";
+counter-=1;
+Even+=2;
+odd+=2;
+}
+bol bhai "|____________________________________________|";
+bye bhai
