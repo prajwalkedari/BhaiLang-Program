@@ -36,3 +36,5 @@ jobs:
         run: bhailang HelloWorld.bhai
       - name: Fibonacci sequence Output
         run: bhailang ./Fibonacci\ Series.bhai
+      - name: Odd Even
+        run: bhailang Print\ Odd\ o\ Even\ number.bhai
